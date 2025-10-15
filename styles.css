@@ -1,0 +1,101 @@
+body {
+  color: firebrick;
+  background: rgb(10, 0, 0);
+  margin: 0px;
+  font-family: "BBH Sans Bogle", sans-serif;
+  margin-bottom: 100px;
+}
+
+header {
+  border-bottom: solid 2px rgb(228, 42, 42);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(228, 79, 42);
+}
+
+div h1 {
+  background: white;
+  /* Cor de fundo do título */
+  color: black;
+  /* Cor do texto do título */
+  font-size: 40px;
+  /* Aumenta o tamanho da letra do título */
+  text-align: center;
+  /* Centraliza o texto do título */
+}
+
+
+div p {
+  background: red;
+  /* Cor de fundo do parágrafo */
+  color: white;
+  /* Cor do texto do parágrafo */
+  font-size: 25px;
+  /* Aumenta o tamanho da letra do parágrafo */
+}
+
+
+.chamada {
+  background-color: yellow;
+  /* Altere para a cor desejada */
+  padding-bottom: 80px;
+  /* Adiciona espaçamento interno, se necessário */
+  padding-top: 80px;
+  /* Ajusta as margens, se necessário */
+  display: flex;
+  justify-content: center;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+}
+
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+
+.categoria-videos img {
+  opacity: 0.5;
+  height: 200px;
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  border: 2px solid yellow;
+}
+
+.minha-recomendacao img {
+  opacity: 0.5;
+  height: 200px;
+}
+
+ .minha-recomendacao img:hover{ 
+  opacity: 1.0;
+  border: 2px solid yellowgreen;
+}
+.categoria h2 {
+  color: white;
+}
+.minha-recomendacao h2 {
+  color: yellow;
+}
+.meu-botao {
+  background-color: firebrick; /* Cor padrão do botão */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.meu-botao:active {
+  background-color: rgb(10, 0, 0); /* Cor quando o botão é clicado */
+  color: firebrick;
+}
