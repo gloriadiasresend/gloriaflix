@@ -1,1 +1,1 @@
-Gloriaflix
+Gloriaflix by ALURA
